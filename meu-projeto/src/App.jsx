@@ -5,19 +5,21 @@ function App() {
   
 
   return (
-    <div>
-      
-      <header>
-        <h1>Header</h1>
+    <>
+
+      <header className='bg-blue-500 text-center h-10'>
+        <h1 className='text-white'>Header</h1>
       </header>
 
-      <Conteudo/>
+      <main className='bg-black text-white w-dvw h-160 flex flex-col'>
+        <Conteudo/>
+      </main>
 
-      <footer>
-        <h1>footer</h1>
+      <footer className='bg-gray-400 text-center h-12'>
+        <h1 className='text-white '>footer</h1>
       </footer>
 
-    </div>
+    </>
   )
 }
 
